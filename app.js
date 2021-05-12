@@ -1,7 +1,4 @@
-const react = {
-   perimeter: (x, y) => 2 * (x + y), 
-   area: (x,y) => x * y
-}; 
+const react = require('./rectangle');
 
 function solveReact(l,w) {
     console.log(`Solving for rectangle with dimensions: ${l}, ${w}`);
